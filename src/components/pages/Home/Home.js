@@ -1,15 +1,14 @@
 import React from 'react';
-import './Home.css'
-import Contact from '../Contact/Contact';
-import Projects from '../Projects/Projects';
+import Intro from '../Intro/Intro';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
-import Introduction from '../Introduction/Introduction';
+import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 function Home() {
   return (
     <>
-      <Introduction id="introduction"/>
+      <Intro id="intro"/>
       <About id="about"/>
       <Skills id="skills"/>
       <Projects id="projects"/>

@@ -25,14 +25,14 @@ function Navbar() {
                 <Link
                  className='nav-links' onClick={closeMobileMenu}
                   activeClass="active"
-                  to="introduction"
+                  to="intro"
                   spy={true}
                   smooth={true}
                   hashSpy={true}
                   offset={0}
                   duration={500}
                   >
-                  Intro
+                  Hey
                 </Link>
               </li>
               <li className='nav-item'>

@@ -1,5 +1,5 @@
 .navbar {
-  background: #ff5252;
+  background: #161415;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@
 .navbar-container {
   display: flex;
   justify-content: space-around;
-  height: 80px;
+  height: 72px;
 }
 
 .container {
@@ -22,8 +22,8 @@
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 48px;
+  padding-left: 48px;
 }
 
 .navbar-logo {
@@ -50,12 +50,12 @@
 }
 
 .nav-item {
-  height: 80px;
+  height: 72px;
   border-bottom: 2px solid transparent;
 }
 
 .nav-item:hover {
-  border-bottom: 5px solid #abe4de;
+  border-bottom: 5px solid #ffffff;
 }
 
 .nav-links {
