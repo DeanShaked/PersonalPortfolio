@@ -1,52 +1,74 @@
-header {
-  position: relative;
-  height: 800px;
-  min-height: 500px;
-  width: 100%;
+.head {
   background: #161415;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+  position: relative;
+  height: 2500px;
+  min-height: 100vh;
+  width: 100%;
   background-size: cover !important;
  -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
 }
 
-header:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-header .banner {
-  display: inline-block;
-  vertical-align: middle;
-  margin: 0 auto;
-  width: 85%;
-  padding-bottom: 30px;
+.title {
+  font-size: 48px;
   text-align: center;
+  font-family: "Bebas Neue", sans-serif;
 }
 
-header .banner-text { width: 100%; }
-header .banner-text h1 {
-  font: 90px/1.1em 'opensans-bold', sans-serif;
-  color: #fff;
-  letter-spacing: -2px;
-  margin: 0 auto 18px auto;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+.vertical-timeline-element-title{
+  font-size: 36px;
 }
-header .banner-text h3 {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
-  color: #A8A8A8;
-  margin: 0 auto;
-  width: 70%;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+
+.h3 {
+  padding-top: 0.25em;
 }
-header .banner-text h3 span,
-header .banner-text h3 a {
-  color: #fff;
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
 }
-header .banner-text hr {
-  width: 60%;
-  margin: 18px auto 24px auto;
-  border-color: #2F2D2E;
-  border-color: rgba(150, 150, 150, .1);
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: #ffffff;
+    margin-top: 1.5em;
+  }
 }
