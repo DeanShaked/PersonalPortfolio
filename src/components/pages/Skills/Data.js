@@ -1,35 +1,39 @@
+import { ReactComponent as CLogo } from './Assets/c.svg'
+import { ReactComponent as CssLogo } from './Assets/css.svg'
+import { ReactComponent as DartLogo } from './Assets/dart.svg'
+import { ReactComponent as FlutterLogo } from './Assets/flutter.svg'
+import { ReactComponent as HtmlLogo } from './Assets/html.svg'
+import { ReactComponent as JavaLogo } from './Assets/java.svg'
+import { ReactComponent as JsLogo } from './Assets/javascript.svg'
+import { ReactComponent as PhpLogo } from './Assets/php.svg'
+import { ReactComponent as PythonLogo } from './Assets/python.svg'
+import { ReactComponent as ReactLogo } from './Assets/react.svg'
+import { ReactComponent as SqlLogo } from './Assets/sql.svg'
+import { ReactComponent as GitLogo } from './Assets/git.svg'
+import { ReactComponent as ReduxLogo } from './Assets/redux.svg'
+
+
 const timelineElements = [
   {
     id: 1,
     title: "First Year",
-    description:
-      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-    buttonText: "View Frontend Projects",
-    icon: "school",
+    icons: [<CLogo/>,<JavaLogo/>]
+
   },
   {
     id: 2,
     title: "Second Year",
-    description:
-      "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-    buttonText: "View Backend Projects",
-    icon: "work",
+    icons: [HtmlLogo,CssLogo,JsLogo,PhpLogo,SqlLogo]
   },
   {
     id: 3,
     title: "Third Year",
-    description:
-      "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
-    buttonText: "Company Website",
-    icon: "school",
+    icons: [PythonLogo,FlutterLogo,DartLogo]
   },
   {
     id: 4,
     title: "Today",
-    description:
-      "Online Course in Magical Beasts and Wonders of the World - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque sagittis tellus, non ultrices lacus tempus vel.",
-    buttonText: "Course Certificate",
-    icon: "school",
+    icons: [ReactLogo,GitLogo,ReduxLogo]
   },
 ];
 
