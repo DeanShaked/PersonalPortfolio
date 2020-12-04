@@ -6,8 +6,8 @@ function Intro({ id }) {
       <header id={id}>
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I'm Dean Shaked.</h1>
-               <h3>I'm a Herzeliya based <span>ReactJS Developer</span>. Front-End Web Developer looking for my next journy.</h3>
+               <h1 className="responsive-headline">Hello, I'm Dean Shaked.</h1>
+               <h3>Front-End Web Developer with a Passion to create complicated elements using <span className="second"> ReactJS</span>.</h3>
                <hr />
             </div>
          </div>

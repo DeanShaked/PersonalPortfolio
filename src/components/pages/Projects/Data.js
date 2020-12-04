@@ -13,7 +13,7 @@ export const securedLogin = {
     description:'Secured Login&Register System'
 };
 
-export const quizGame = {
+export const portfolio = {
 
     img: 'images/portfolio-1.jpg',
     alt: 'Personal Portfolio',

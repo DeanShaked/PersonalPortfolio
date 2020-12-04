@@ -55,21 +55,6 @@ function Navbar() {
                   className='nav-links'
                   onClick={closeMobileMenu}
                   activeClass="active"
-                  to="skills"
-                  spy={true}
-                  smooth={true}
-                  hashSpy={true}
-                  offset={0}
-                  duration={500}
-                  >
-                  Skills
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link
-                  className='nav-links'
-                  onClick={closeMobileMenu}
-                  activeClass="active"
                   to="projects"
                   spy={true}
                   smooth={true}
