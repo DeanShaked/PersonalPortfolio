@@ -3,7 +3,9 @@ import { FaGithub } from 'react-icons/fa';
 
 function ItemProject({
     img,
-    alt
+    alt,
+    url,
+    description
 }) {
     const [imgActive, setImg] = useState(true);
 
@@ -13,7 +15,8 @@ function ItemProject({
               (<img src={img} alt={alt} className="projects__imgs" onMouseOver = {() => setImg(false)} onMouseOut={() => setImg(true)}/>)
               : (
               <div className="buttons-wrapper" onMouseOver = {() => setImg(false)} onMouseOut={() => setImg(true)}>
-                  <a href="www.google.com"><FaGithub className="projects__git-hub"/></a>
+                  <p className="desciption">{description}</p>
+                  <a href={url}><FaGithub className="projects__git-hub"/></a>
               </div>
               )}
          </div>

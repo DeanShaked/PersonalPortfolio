@@ -1,8 +1,7 @@
 import React from 'react';
 import './Projects.css';
-import { hebrapImgs,securedLoginImgs,quizGameImgs } from './Data'
+import { hebrap,securedLogin,quizGame,backgammonGame} from './Data'
 import ItemProject from './ItemProject'
-import { Link } from 'react-router-dom'
 
 function Projects({id}) {
   
@@ -11,12 +10,10 @@ function Projects({id}) {
         <div className='projects__wrapper'>
           <h1 className='projects__heading'>Projects</h1>
           <div className='projects__container'>
-            <div className="item-wrapper">
-              <ItemProject img={hebrapImgs.img} alt={hebrapImgs.alt}/>
-            </div>
-            <ItemProject img={securedLoginImgs.img} secondImg={securedLoginImgs.secondImg} alt={securedLoginImgs.alt} />
-            <ItemProject img={quizGameImgs.img} secondImg={quizGameImgs.secondImg} alt={quizGameImgs.alt} />
-            <ItemProject img={quizGameImgs.img} secondImg={quizGameImgs.secondImg} alt={quizGameImgs.alt} />
+            <ItemProject img={backgammonGame.img} alt={backgammonGame.alt} url={backgammonGame.url} description={backgammonGame.description} />
+            <ItemProject img={hebrap.img} alt={hebrap.alt} url={hebrap.url} description={hebrap.description}/>
+            <ItemProject img={securedLogin.img} alt={securedLogin.alt} url={securedLogin.url} description={securedLogin.description} />
+            <ItemProject img={quizGame.img} alt={quizGame.alt} url={quizGame.url} description={quizGame.description} />
           </div>
         </div>
       </div>

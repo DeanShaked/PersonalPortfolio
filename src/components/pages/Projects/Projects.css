@@ -5,6 +5,9 @@
   justify-content: center;
   background: #fafafa;
 }
+.desciption {
+  color:#ffffff;
+}
 .buttons-wrapper {
   height: 400px;
   width: 300px;
