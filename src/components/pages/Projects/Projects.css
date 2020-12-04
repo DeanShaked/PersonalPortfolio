@@ -47,9 +47,18 @@
 }
 
 .projects__heading {
-  color: #1c2237;
-  font-size: 50px;
   margin-bottom: 50px;
+  font: 48px/72px 'opensans-bold', sans-serif;
+  color: #131313;
+  margin-bottom: 72px;
+  color: #111;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+  object-fit: cover;
 }
 
 .projects__imgs{
