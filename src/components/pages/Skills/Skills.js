@@ -7,6 +7,7 @@ import { ReactComponent as SchoolIcon } from "./Assets/school.svg";
 import { ReactComponent as ReduxLogo } from './Assets/redux.svg'
 import { IconContext } from 'react-icons';
 
+
 function Skills({ id }) {
     const schoolIconStyles = { background: "#ffffff" };
     return (
@@ -15,8 +16,8 @@ function Skills({ id }) {
           <VerticalTimeline>
             <title className="title">Education</title>
             {timelineElements.map((element) => {
-              let listItems = element.icons.map(({icon}) => {
-                return <ReduxLogo className="element-icon"/>
+              let listItems = element.icons.map((Icon) => {
+                return <Icon {...Icon} />
               })
               return (
                 <VerticalTimelineElement
