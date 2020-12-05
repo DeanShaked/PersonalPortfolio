@@ -32,7 +32,7 @@ function Navbar() {
                   offset={0}
                   duration={500}
                   >
-                  Hey
+                  Hello
                 </Link>
               </li>
               <li className='nav-item'>

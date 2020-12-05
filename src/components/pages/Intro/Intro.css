@@ -2,7 +2,7 @@ header {
   height: 960px;
   min-height: 100vh;
   width: 100%;
-  background: #161415;
+  background: #E6E6E6;
   -webkit-background-size: cover;
   text-align: center;
   overflow: hidden;
@@ -31,27 +31,29 @@ header .banner {
 
 header .banner-text h1 {
   font: 90px/1.1em 'opensans-bold', sans-serif;
-  color: #fff;
+  color: #3e3e3e;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+.span-name {
+  font: 90px/1.1em 'opensans-bold', sans-serif;
+  color: #4D7099;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
 header .banner-text h3 {
-  font: 22px 'librebaskerville-regular', serif;
-  color: #A8A8A8;
+  font-family: 'Montserrat', sans-serif;
+  color: #3e3e3e;
   margin: 0 auto;
   width: 70%;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 
-header .banner-text h3 ,
-header .banner-text h3 a {
-  color: #fff;
-}
-
 header .second{
-  color:#47ABD8;
+  color:#4D7099;
 }
 header .banner-text hr {
   width: 60%;
