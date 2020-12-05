@@ -13,12 +13,11 @@
 .navbar-container {
   display: flex;
   justify-content: space-evenly;
-
+  margin-right:8px;
   height: 72px;
 }
 
 .container {
-  z-index: 1;
   width: 100%;
   max-width: 1300px;
   margin-right: auto;

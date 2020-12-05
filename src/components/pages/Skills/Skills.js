@@ -4,8 +4,6 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import timelineElements from "./Data";
 import "react-vertical-timeline-component/style.min.css";
 import { ReactComponent as SchoolIcon } from "./Assets/school.svg";
-import { ReactComponent as ReduxLogo } from './Assets/redux.svg'
-import { IconContext } from 'react-icons';
 
 
 function Skills({ id }) {
@@ -17,7 +15,7 @@ function Skills({ id }) {
             <title className="title">Education</title>
             {timelineElements.map((element) => {
               let listItems = element.icons.map((Icon) => {
-                return <Icon {...Icon} />
+                return Icon
               })
               return (
                 <VerticalTimelineElement

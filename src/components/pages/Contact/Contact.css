@@ -14,7 +14,6 @@
   text-align: center;
 }
 #contact h1 {
-  color: #131313;
   margin-bottom: 72px;
   color: #fefefe;
   font-family: 'Helvetica Neue', sans-serif;
@@ -25,19 +24,7 @@
   text-align: center;
   object-fit: cover;
 }
-#contact h1 span { display: none; }
 
-#contact h4 {
-  font: 16px/24px 'opensans-bold', sans-serif;
-  color: #EBEEEE;
-  margin-bottom: 6px;
-}
-#contact p.lead {
-  font: 18px/36px 'opensans-light', sans-serif;
-  padding-right: 3%;
-}
-
-/* contact form */
 #contact form { margin-bottom: 30px; }
 #contact label {
   display: flex;
@@ -62,7 +49,7 @@ h1,fieldset , form{
 .row-me {
   display: flex;
   flex-direction: row;
-  margin:0 24px 0 24px;
+  margin-right: 72px;
   width:1024px;
 }
 #contact input,
@@ -82,7 +69,7 @@ h1,fieldset , form{
 #contact textarea:focus,
 #contact select:focus {
   box-shadow: 0 0 2px 2px #373233;
-  transform: scale(1.02);
+  transform: scale(1.01);
   transition: all 0.3s ease-out;
   color: #fff;
 }
