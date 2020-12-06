@@ -32,7 +32,7 @@ function Navbar() {
                   offset={0}
                   duration={500}
                   >
-                  Hello
+                  Home
                 </Link>
               </li>
               <li className='nav-item'>
@@ -48,6 +48,20 @@ function Navbar() {
                   duration={500}
                   >
                   About
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                 className='nav-links' onClick={closeMobileMenu}
+                  activeClass="active"
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  hashSpy={true}
+                  offset={0}
+                  duration={500}
+                  >
+                  Education
                 </Link>
               </li>
               <li className='nav-item'>

@@ -87,7 +87,7 @@
   }
 
   .nav-menu.active {
-    background: #161415;
+    background: #E6E6E6;
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;
@@ -95,7 +95,7 @@
   }
 
   .nav-links {
-    color:#ffffff;
+    color:#3e3e3e;
     font-size:24px;
     text-align: center;
     padding: 2rem;
@@ -104,7 +104,7 @@
   }
 
   .nav-links:hover {
-    color: grey;
+    color: #4D7099;
   }
 
   .nav-item:hover {

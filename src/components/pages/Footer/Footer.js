@@ -14,9 +14,6 @@ function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
-          You can also find me at social media
-        </p>
       </section>
       <section className='social-media'>
         <div className='social-media-wrap'>

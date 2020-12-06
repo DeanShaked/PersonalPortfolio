@@ -7,12 +7,12 @@ import { ReactComponent as SchoolIcon } from "./Assets/school.svg";
 
 
 function Skills({ id }) {
-    const schoolIconStyles = { background: "#E6E6E6",border:'0'};
+    const schoolIconStyles = { background: "#4D7099"};
     return (
       <>
         <div className="head" id={id}>
+          <h2 className="title">Education</h2>
           <VerticalTimeline style={{background:"#E6E6E6"}}>
-            <title className="title">Education</title>
             {timelineElements.map((element) => {
               let listItems = element.icons.map((Icon) => {
                 return Icon
@@ -22,8 +22,7 @@ function Skills({ id }) {
                 key={element.key}
                 iconStyle={schoolIconStyles}
                 icon={<SchoolIcon/>}
-                contentArrowStyle={{background: '#E6E6E6 !important',
-                  color:'#E6E6E6 !important'}}
+                contentArrowStyle={{ borderRight: '6px solid  #E6E6E6' }}
                 >
                   <h3 className="element-title">{element.title}</h3>
                   <hr/>

@@ -10,7 +10,6 @@ function About({id}) {
           <section id={id} className="about">
             <div className="about-row">
               <h1>About Me</h1>
-              <hr></hr>
               <p>{myInfo.bio}</p>
             </div>
           </section>

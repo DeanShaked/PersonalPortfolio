@@ -9,7 +9,6 @@ function Projects({id}) {
       <div className='projects__section' id={id}>
         <div className='projects__wrapper'>
           <h1 className='projects__heading'>Projects</h1>
-          <hr></hr>
           <div className='projects__container'>
             <ItemProject img={backgammonGame.img} alt={backgammonGame.alt} url={backgammonGame.url} description={backgammonGame.description} />
             <ItemProject img={hebrap.img} alt={hebrap.alt} url={hebrap.url} description={hebrap.description}/>

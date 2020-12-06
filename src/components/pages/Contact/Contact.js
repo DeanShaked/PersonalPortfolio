@@ -13,9 +13,9 @@ function Contact({ id }) {
    }
 
     return (
-      <section id={id}>
+      <section className="contact" id={id}>
         <div className="double-row">
-           <h1 className="title">Contact Me</h1>
+           <h1>Contact Me</h1>
                <form>
 					<fieldset>
                   <div className="row-me">
@@ -24,7 +24,7 @@ function Contact({ id }) {
                   </div>
                   <div className="row-me">
 						   <label> Email <span className="required">*</span></label>
-						   <input value={email} type="text" onChange={e=> setEmail(e.target.value)}/>
+						   <input value={email} type="text" required='true' onChange={e=> setEmail(e.target.value)}/>
                   </div>
                   <div className="row-me">
 						   <label> Subject</label>
@@ -32,7 +32,7 @@ function Contact({ id }) {
                   </div>
                   <div className="row-me">
                      <label> Message <span className="required">*</span></label>
-                     <textarea value={message} onChange={e => setMessage(e.target.value)} cols="50" rows="15"/>
+                     <textarea value={message} required='true' onChange={e => setMessage(e.target.value)} cols="50" rows="15"/>
                   </div>
                   <div>
                      <button type='submit' onClick={handleClick} className="submit">Submit</button>
