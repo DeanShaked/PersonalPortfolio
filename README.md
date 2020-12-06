@@ -1,5 +1,5 @@
 # Personal Portfolio
-Builed with react.
+My first portfolio build using ReactJS.
 
 # Typhograpyh
 
