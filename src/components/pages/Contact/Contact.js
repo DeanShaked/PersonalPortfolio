@@ -32,7 +32,7 @@ function Contact({ id }) {
                   </div>
                   <div className="row-me">
                      <label> Message <span className="required">*</span></label>
-                     <textarea value={message} required='true' onChange={e => setMessage(e.target.value)} cols="50" rows="15"/>
+                     <textarea value={message} required='true' onChange={e => setMessage(e.target.value)} cols="50" rows="8"/>
                   </div>
                   <div>
                      <button type='submit' onClick={handleClick} className="submit">Submit</button>

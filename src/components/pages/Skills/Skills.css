@@ -111,12 +111,13 @@
   hr{display: none;}
   .title {
     margin-bottom:24px;
+    margin-right:24px;
   }
 }
 
 @media screen and (max-width:760px) {
   .vertical-timeline-element-content.bounce-in {
-    width: 380px;
+    width: 320px;
     margin-left:120px;
     border-radius: 20px;
     font-family: "opansans-medium", sans-serif;
@@ -127,5 +128,7 @@
   hr{display: none;}
   .title {
     margin-bottom:72px;
+    margin-right:24px;
+    font-size:96px;
   }
 }

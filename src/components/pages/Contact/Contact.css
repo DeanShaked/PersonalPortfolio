@@ -3,27 +3,23 @@
   padding:120px 72px 72px 72px;
 }
 
-.contact a, .contact a:visited  { color: #E6E6E6; }
-.contact a:hover, .contact a:focus { color: #E6E6E6; }
-
-.row-me {
-  display: flex;
-  flex-direction: row;
-  margin-right: 144px;
-  margin-left:24px;
-  width:1024px;
-}
-
 .double-row{
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin:0 24px 18px 24px;
 }
+
+.row-me {
+  display: flex;
+  flex-direction: row;
+  margin-right: 144px;
+  margin-left:48px;
+  width:1024px;
+}
+
 .contact h1 {
-  margin-bottom: 72px;
   margin-right: 68px;
   color: #3e3e3e;
   font-family: 'Heebo', sans-serif;
@@ -35,6 +31,9 @@
   line-height: 1;
   text-align: center;
   object-fit: cover;
+  width: 60%;
+  margin-bottom: 72px;
+  margin-left: 36px;
 }
 
 .contact label {
@@ -62,6 +61,7 @@ h1,fieldset , form{
 .contact input,
 .contact textarea,
 .contact select {
+  margin-left: 48px;
   padding: 18px 20px;
   background: #E6E6E6;
   box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
@@ -85,7 +85,8 @@ h1,fieldset , form{
   color: #3e3e3e;
 }
 .contact button.submit {
-  margin-right:72px;
+  margin-right:24px;
+  margin-left: 24px;
   font-family: 'opensans-bold', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
@@ -125,8 +126,11 @@ h1,fieldset , form{
     display: flex;
     flex-direction: row;
     margin-right: 144px;
-    margin-left:24px;
+    margin-left:48px;
     width:80%;
+  }
+  .contact h1 {
+    margin-left: 48px;
   }
   .double-row{
     width: 100%;
@@ -142,32 +146,52 @@ h1,fieldset , form{
 @media screen and (max-width:930px) {
   .row-me {
     margin-right: 72px;
-    margin-left:24px;
-    width:500px;
+    margin-left:48px;
+    display: flex;
+    flex-direction: row;
+    width:80%;
   }
   .contact h1 {
-    margin-bottom: 72px;
-    margin-right: 68px;
-    margin-left: auto;
+    margin-left: 48px;
   }
   .double-row{
-    width: 80%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:0 24px 18px 48px;
   }
 }
 
-@media screen and (max-width:610px) {
+@media screen and (max-width:783px) {
   .row-me {
     margin-right: 72px;
-    margin-left:24px;
-    width:500px;
+    margin-left:48px;
+    display: flex;
+    flex-direction: row;
+    width:400px;
   }
   .contact h1 {
     margin-bottom: 72px;
     margin-right: 68px;
     margin-left: auto;
   }
-  .double-row{
-    width: 80%;
+  .contact label {
+    margin-right:36px;
     margin-left: auto;
+  }
+  .double-row{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin:0 24px 18px 8px;
+  }
+  .contact button.submit {
+    margin-left:96px;
   }
 }
